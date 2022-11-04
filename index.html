@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+         <a-asset-item id="city" src="./assets/update_buiding_metting.glb"></a-asset-item>
+      </a-assets>
+      <a-gltf-model src="#city"></a-gltf-model>
+      
+      <a-plane rotation="-90 0 0"></a-plane>
+      <a-sky src="./assets/cloud.jpg"></a-sky>
+      <a-camera position="1 5 1" speed=1></a-camera>
+    </a-scene>
+  </body>
+</html>
+
+
+
+
+
+
